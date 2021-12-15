@@ -7,7 +7,7 @@ spec:
     registration:
       type: anonymous
   workshops:
-  - name: lab-sonarqube
+  - name: az-workshop
     capacity: 1
     expires: 60m
     orphaned: 5m
