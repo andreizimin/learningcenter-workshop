@@ -1,17 +1,17 @@
-apiVersion: training.eduk8s.io/v1alpha2
+apiVersion: learningcenter.tanzu.vmware.com/v1beta1
 kind: Workshop
 metadata:
-  name: lab-sonarqube
+  name: az-workshop
 spec:
-  title: SonarQube
-  description: Learn to use sonarqube and sonar-scanner on your cluster
-  vendor: eduk8s.io
+  title: AZWorkshop
+  description: Learn to use TAP GUI like a pro
+  vendor: az
   difficulty: beginner
   duration: 15m
-  url: https://github.com/andmagom/lab-sonarqube
+  url: https://github.com/andreizimin/learningcenter-workshop
   content:
     #image: quay.io/eduk8s/lab-markdown-sample:master
-    files: github.com/andmagom/lab-sonarqube
+    files: github.com/andreizimin/learningcenter-workshop
   session:
     namespaces:
       budget: small
